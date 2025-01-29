@@ -67,12 +67,12 @@ return {
 
         ---@type table<string, consumable>
         drink = {
-            water_bottle = {
+            water = {
                 min = 35,
                 max = 54,
                 stressRelief = {
-                    min = 1,
-                    max = 4
+                    min = 10,
+                    max = 14
                 },
             },
             kurkakola = {
